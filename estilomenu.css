@@ -1,0 +1,37 @@
+/*CSS do Menu*/
+.menu{
+    font-family: Arial;
+    list-style: none;
+    border: 1px solid #333333;
+    float: left;
+}
+.menu li{
+    position:relative;
+    float: left;
+    border-right: 1px solid #333333;
+}
+.menu li a{
+    color:#333333;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+}
+.menu li a:hover{
+    background: #333333;
+    color: #ffffff;
+}
+.menu li ul{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    display: none;
+    background: #ffffff;
+}
+.menu li:hover ul{
+    display: block;
+}
+.menu li ul li{
+    border: 1px solid #ffffff;
+    width: 150px;
+    display: block;
+}
